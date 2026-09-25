@@ -1,5 +1,8 @@
+import time
+
 nom = str(input("Quin es el teu nom?: "))
 
 print("Hola, " + nom.capitalize())
 
-sleep(1)
+time.sleep(5)
+print("Bueno Adeu")
